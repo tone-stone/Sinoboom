@@ -20,7 +20,7 @@
   --bs-gray: #6c757d;
   --bs-gray-dark: #343a40;
   --bs-primary: #4232c2;
-  --bs-secondary: #6266ea;
+  --bs-secondary: #007ec2;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
@@ -9595,7 +9595,7 @@ fieldset:disabled .btn {
 
 /* line 50, src/assets/scss/mixins/_utilities.scss */
 .bg-secondary {
-  background-color: #6266ea !important;
+  background-color: #007ec2 !important;
 }
 
 /* line 50, src/assets/scss/mixins/_utilities.scss */

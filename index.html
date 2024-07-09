@@ -17,10 +17,58 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/custom.css">
 
+    <style>
+       body {
+            margin: 0;
+            padding: 0;
+        }
+        .top-bar {
+            background-color: #2874A6;
+            color: white;
+            padding: 10px 0;
+            text-align: end;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+        .top-bar a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        .navbar {
+            margin-top: 50px; /* Ajusta este valor según la altura de tu top bar */
+        }
+        .navbar-brand img {
+            height: 100px;
+        }
+       
+        .banner-button:hover {
+            background-color: #F89630;
+            border-color: #F89630;
+        }
+        
+    </style>
+
 </head>
 
 <body>
+
+    <!--Top Header-->
+
+    <div class="top-bar">
+        <span>Contacto: 664 386-9247</span>
+        <a href="mailto:contacto@ejemplo.com">administracion@rentastj.com.mx</a>
+        
+    </div>
+
+
+
+   
     <!-- Header -->
+
     <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow">
         <div class="container d-flex justify-content-between align-items-center">
             <a class="navbar-brand h1" href="index.html">
@@ -32,31 +80,27 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="navbar-toggler-success">
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="navbar-toggler-success" >
                 <div class="flex-fill mx-xl-5 mb-2">
                     <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="index.html">Inicio</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="index.html"  style="box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.3);">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="nosotros.html">Nosotros</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="nosotros.html"  style="box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.3);">Nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="productos.html">Productos</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="productos.html"  style="box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.3);">Productos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="servicios.html">Servicios</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="servicios.html"  style="box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.3);">Servicios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="contacto.html">Contacto</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="contacto.html"  style="box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.3);">Contacto</a>
                         </li>
                     </ul>
                 </div>
-                <!--<div class="navbar align-self-center d-flex">
-                    <a class="nav-link" href="#"><i class='bx bx-bell bx-sm bx-tada-hover text-primary'></i></a>
-                    <a class="nav-link" href="#"><i class='bx bx-cog bx-sm text-primary'></i></a>
-                    <a class="nav-link" href="#"><i class='bx bx-user-circle bx-sm text-primary'></i></a>
-                </div>-->
+                
             </div>
         </div>
     </nav>
@@ -64,7 +108,7 @@
 
 
     <!-- Start Banner Hero -->
-    <div class="banner-wrapper bg-light">
+    <div class="banner-wrapper bg-dark " >
         <div id="index_banner" class="banner-vertical-center-index container-fluid pt-5">
 
             <!-- Start slider -->
@@ -81,10 +125,11 @@
                             <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
                                 <img src="./assets/img/RentasTJ-logo.png  " style="height:200px;">
                                 
-                                <p class="banner-body text-muted py-3 mx-0 px-0">
+                                <h1 class="banner-body text-white py-3 mx-0 px-0">
                                  Conocimiento y experiencia a su servicio.<a rel="nofollow" href="" target="_parent">
-                              </p>
-                                <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4 " href="#" role="button">Contactanos</a>
+                                 </h1>
+                                 <br><br>
+                                <a class="banner-button btn rounded-pill btn-primary btn-lg px-4 " href="contacto.html" role="button" style="box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.6);">Contactanos</a>
                             </div>
                         </div>
 
@@ -97,10 +142,11 @@
                                 <!--<h1 class="banner-heading h1 text-secondary display-3 mb-0 pb-3 mx-0 px-0 light-300">
                                     HTML CSS Template with Bootstrap 5 Beta 1
                                 </h1>-->
-                                <p class="banner-body text-muted py-3">
+                                <h1 class="banner-body text-white py-3">
                                     Conocimiento y experiencia a su servicio.
-                                </p>
-                                <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4 " href="#" role="button">Contactanos</a>
+                                </h1>
+                                <br><br>
+                                <a class="banner-button btn rounded-pill btn-primary btn-lg px-4 " href="contacto.html" role="button"  style="box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.6);">Contactanos</a>
                             </div>
                         </div>
 
@@ -113,10 +159,11 @@
                                 <!--<h1 class="banner-heading h1 text-secondary display-3 mb-0 pb-3 mx-0 px-0 light-300">
                                     Cupidatat non proident, sunt in culpa qui officia
                                 </h1>-->
-                                <p class="banner-body text-muted py-3">
+                                <h1 class="banner-body text-white py-3">
                                     Conocimiento y experiencia a su servicio.
-                                </p>
-                                <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4 " href="#" role="button">Contactanos</a>
+                                </h1>
+                                <br><br>
+                                <a class="banner-button btn rounded-pill btn-primary btn-lg px-4 " href="contacto.html" role="button"  style="box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.6);">Contactanos</a>
                             </div>
                         </div>
 
@@ -143,28 +190,25 @@
     <section class="service-wrapper py-3">
         <div class="container-fluid pb-3">
             <div class="row">
-                <h2 class="h2 text-center col-12 py-5 semi-bold-600">Renta de Plataformas</h2>
-                
+                <h2 class="h2 text-center col-12 py-4 semi-bold-600">Renta de Plataformas</h2>
+                <p class="text-center col-12 py-3">En el ámbito de la construcción y el mantenimiento, la eficiencia y la seguridad son esenciales para el éxito de cualquier proyecto.</p> 
             </div>
-            <h5 class="service-footer col-10 offset-2 col-lg-9 offset-lg-3 text-center pb-3 text-muted px-2">
-                En el ámbito de la construcción y el mantenimiento, la eficiencia y la seguridad son esenciales para el éxito de cualquier proyecto.
-            </h5>
         </div>
 
         <div class="service-tag py-5 bg-secondary">
             <div class="col-md-12">
                 <ul class="nav d-flex justify-content-center">
                     <li class="nav-item mx-lg-4">
-                        <a class="filter-btn nav-link btn-outline-primary active shadow rounded-pill text-light px-4 light-300" href="#" data-filter=".project">Todo</a>
+                        <a class="filter-btn nav-link btn-outline-primary active shadow rounded-pill text-light px-4 light-300" href="#" data-filter=".project"  style="box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.6);">Todo</a>
                     </li>
                     <li class="nav-item mx-lg-4">
-                        <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300" href="#" data-filter=".graphic">Elevador</a>
+                        <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300" href="#" data-filter=".graphic"  style="box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.6);">Elevador</a>
                     </li>
                     <li class="filter-btn nav-item mx-lg-4">
-                        <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300" href="#" data-filter=".ui">Tijeras</a>
+                        <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300" href="#" data-filter=".ui"  style="box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.6);">Tijeras</a>
                     </li>
                     <li class="nav-item mx-lg-4">
-                        <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300" href="#" data-filter=".branding">Brazo</a>
+                        <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300" href="#" data-filter=".branding"  style="box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.6);">Brazo</a>
                     </li>
                 </ul>
             </div>
@@ -181,8 +225,8 @@
                     <img class="service card-img" src="./assets/img/grua1.jpg" alt="Card image">
                     <div class="service-work-vertical card-img-overlay d-flex align-items-end">
                         <div class="service-work-content text-left text-light">
-                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">UI/UX design</span>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Grúas Elevadoras</span>
+                            <p class="card-text">Grúas ideales para trabajos en altura con capacidad de elevación precisa y segura.</p>
                         </div>
                     </div>
                 </a>
@@ -194,8 +238,8 @@
                     <img class="card-img" src="./assets/img/grua2.jpg" alt="Card image">
                     <div class="service-work-vertical card-img-overlay d-flex align-items-end">
                         <div class="service-work-content text-left text-light">
-                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Social Media</span>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Grúas Tipo Tijeras</span>
+                            <p class="card-text"> Perfectas para espacios reducidos, ofrecen una plataforma estable y amplia para tareas en altura.</p>
                         </div>
                     </div>
                 </a>
@@ -207,8 +251,8 @@
                     <img class="card-img" src="./assets/img/grua1.jpg" alt="Card image">
                     <div class="service-work-vertical card-img-overlay d-flex align-items-end">
                         <div class="service-work-content text-left text-light">
-                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Marketing</span>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Grúas Tipo Brazo </span>
+                            <p class="card-text">Equipadas con brazos articulados para acceder a áreas de difícil alcance, proporcionando flexibilidad y versatilidad en operaciones elevadas.</p>
                         </div>
                     </div>
                 </a>
@@ -220,8 +264,8 @@
                     <img class="card-img" src="./assets/img/grua2.jpg" alt="Card image">
                     <div class="service-work-vertical card-img-overlay d-flex align-items-end">
                         <div class="service-work-content text-left text-light">
-                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Graphic</span>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Grúas Elevadoras</span>
+                            <p class="card-text">Grúas ideales para trabajos en altura con capacidad de elevación precisa y segura.</p>
                         </div>
                     </div>
                 </a>
@@ -233,8 +277,8 @@
                     <img class="card-img" src="./assets/img/grua1.jpg" alt="Card image">
                     <div class="service-work-vertical card-img-overlay d-flex align-items-end">
                         <div class="service-work-content text-left text-light">
-                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Digtal Marketing</span>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Grúas Tipo Tijeras</span>
+                            <p class="card-text"> Perfectas para espacios reducidos, ofrecen una plataforma estable y amplia para tareas en altura.</p>
                         </div>
                     </div>
                 </a>
@@ -246,8 +290,8 @@
                     <img class="card-img" src="./assets/img/grua2.jpg" alt="Card image">
                     <div class="service-work-vertical card-img-overlay d-flex align-items-end">
                         <div class="service-work-content text-left text-light">
-                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Market Research</span>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Grúas Tipo Brazo </span>
+                            <p class="card-text">Equipadas con brazos articulados para acceder a áreas de difícil alcance, proporcionando flexibilidad y versatilidad en operaciones elevadas.</p>
                         </div>
                     </div>
                 </a>
@@ -259,8 +303,8 @@
                     <img class="card-img" src="./assets/img/grua1.jpg" alt="Card image">
                     <div class="service-work-vertical card-img-overlay d-flex align-items-end">
                         <div class="service-work-content text-left text-light">
-                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Business</span>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Grúas Tipo Tijeras</span>
+                            <p class="card-text"> Perfectas para espacios reducidos, ofrecen una plataforma estable y amplia para tareas en altura.</p>
                         </div>
                     </div>
                 </a>
@@ -272,8 +316,8 @@
                     <img class="card-img" src="./assets/img/grua2.jpg" alt="Card image">
                     <div class="service-work-vertical card-img-overlay d-flex align-items-end">
                         <div class="service-work-content text-left text-light">
-                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Branding</span>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Grúas Tipo Brazo</span>
+                            <p class="card-text">Equipadas con brazos articulados para acceder a áreas de difícil alcance, proporcionando flexibilidad y versatilidad en operaciones elevadas.</p>
                         </div>
                     </div>
                 </a>
@@ -283,11 +327,6 @@
     </section>
     <!-- End Service -->
 
-
-
-
-
-
     <!-- Start View Work -->
     <section class="bg-secondary">
         <div class="container py-5">
@@ -296,11 +335,11 @@
                     <i class='display-1 bx bxs-box bx-lg'></i>
                 </div>
                 <div class="col-lg-7 col-12 text-light pt-2">
-                    <h3 class="h4 light-300">Seguridad e integridad ante todo</h3>
-                    <p class="light-300">Quis ipsum suspendisse ultrices gravida.</p>
+                    <h3 class="h4 light-300">Seguridad e integridad ante todo.</h3>
+                    <p class="light-300">Conocimiento y experiencia a su servicio.</p>
                 </div>
                 <div class="col-lg-3 col-12 pt-4">
-                    <a href="#" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2">View Our Work</a>
+                    <a href="contacto.html" class="btn-outline-primary btn-primary rounded-pill btn-block shadow px-4 py-2" style="box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.6);">Contactanos</a>
                 </div>
             </div>
         </div>
@@ -321,8 +360,8 @@
                         <img class="recent-work-img card-img" src="./assets/img/proyc1.jpg" alt="Card image">
                         <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
                             <div class="recent-work-content text-start mb-3 ml-3 text-dark">
-                                <h3 class="card-title light-300">Ventajas de Plataformas Tipo Tijeras</h3>
-                                <p class="card-text">Barras Anti-colisión</p>
+                                <h3 class="card-title light-300">Innovación</h3>
+                                <p class="card-text">Incorporan tecnología avanzada para mejorar el rendimiento y la eficiencia operativa.</p>
                             </div>
                         </div>
                     </a>
@@ -334,9 +373,9 @@
                         <img class="recent-work-img card-img" src="./assets/img/proyect2.jpg" alt="Card image">
                         <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
                             <div class="recent-work-content text-start mb-3 ml-3 text-dark">
-                                <h3 class="card-title light-300">Ventajas de Plataformas Articuladas 
+                                <h3 class="card-title light-300">Seguridad 
                                 </h3>
-                                <p class="card-text">Psum officia anim id est laborum.</p>
+                                <p class="card-text">Diseñadas con características avanzadas de seguridad para proteger a los operadores durante su uso.</p>
                             </div>
                         </div>
                     </a>
@@ -348,8 +387,8 @@
                         <img class="recent-work-img card-img" src="./assets/img/grua1.jpg" alt="Card image">
                         <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
                             <div class="recent-work-content text-start mb-3 ml-3 text-dark">
-                                <h3 class="card-title light-300">R & D</h3>
-                                <p class="card-text">Sum dolor sit consencutur</p>
+                                <h3 class="card-title light-300">Versatilidad</h3>
+                                <p class="card-text">Disponibles en varios modelos, como elevadores, tijeras y brazos, para adaptarse a diferentes necesidades de elevación.</p>
                             </div>
                         </div>
                     </a>
@@ -361,8 +400,8 @@
                         <img class="recent-work-img card-img" src="./assets/img/grua2.jpg" alt="Card image">
                         <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
                             <div class="recent-work-content text-start mb-3 ml-3 text-dark">
-                                <h3 class="card-title light-300">Public Relation</h3>
-                                <p class="card-text">Lorem ipsum dolor sit amet</p>
+                                <h3 class="card-title light-300">Eficiencia</h3>
+                                <p class="card-text"> Mejoran la productividad al permitir un acceso rápido y seguro a áreas de difícil alcance.</p>
                             </div>
                         </div>
                     </a>
@@ -374,8 +413,8 @@
                         <img class="recent-work-img card-img" src="./assets/img/proyc1.jpg" alt="Card image">
                         <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
                             <div class="recent-work-content text-start mb-3 ml-3 text-dark">
-                                <h3 class="card-title light-300">Branding</h3>
-                                <p class="card-text">Put enim ad minim veniam</p>
+                                <h3 class="card-title light-300">Durabilidad</h3>
+                                <p class="card-text">Construidas con materiales de alta calidad que aseguran una larga vida útil y resistencia a condiciones exigentes.</p>
                             </div>
                         </div>
                     </a>
@@ -387,8 +426,8 @@
                         <img class="recent-work-img card-img" src="./assets/img/proyect2.jpg" alt="Card image">
                         <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
                             <div class="recent-work-content text-start mb-3 ml-3 text-dark">
-                                <h3 class="card-title light-300">Creative Design</h3>
-                                <p class="card-text">Mollit anim id est laborum.</p>
+                                <h3 class="card-title light-300">Movilidad</h3>
+                                <p class="card-text">Ofrecen una excelente maniobrabilidad en espacios reducidos y terrenos irregulares.</p>
                             </div>
                         </div>
                     </a>

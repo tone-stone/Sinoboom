@@ -17,9 +17,55 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/custom.css">
 
+    <style>
+        body {
+             margin: 0;
+             padding: 0;
+         }
+         .top-bar {
+             background-color: #2874A6;
+             color: white;
+             padding: 10px 0;
+             text-align: end;
+             position: fixed;
+             top: 0;
+             width: 100%;
+             z-index: 1000;
+         }
+         .top-bar a {
+             color: white;
+             margin: 0 10px;
+             text-decoration: none;
+         }
+ 
+         .navbar {
+             margin-top: 50px; /* Ajusta este valor según la altura de tu top bar */
+         }
+         .navbar-brand img {
+             height: 100px;
+         }
+        
+         .banner-button:hover {
+             background-color: #F89630;
+             border-color: #F89630;
+         }
+         
+     </style>
+ 
+ </head>
+ 
+
 </head>
 
 <body>
+
+    <!--Top Header-->
+
+    <div class="top-bar">
+        <span>Contacto: 664 386-9247</span>
+        <a href="mailto:contacto@ejemplo.com">administracion@rentastj.com.mx</a>
+        
+    </div>
     <!-- Header -->
     <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow">
         <div class="container d-flex justify-content-between align-items-center">
@@ -37,19 +83,19 @@
                 <div class="flex-fill mx-xl-5 mb-2">
                     <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="index.html">Inicio</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="index.html" style="box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.3);">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="nosotros.html">Nosotros</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="nosotros.html" style="box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.3);">Nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="productos.html">Productos</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="productos.html" style="box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.3);">Productos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="servicios.html">Servicios</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="servicios.html" style="box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.3);">Servicios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="contacto.html">Contacto</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="contacto.html" style="box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.3);">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -69,12 +115,11 @@
         <div class="container py-4">
             <div class="row align-items-center justify-content-between">
                 <div class="contact-header col-lg-4">
-                    <h1 class="h2 pb-3 ">Contacto</h1>
+                    <h1 class="h2 pb-3 ">Ponte en Contacto</h1>
                     <h3 class="h4 regular-400">Estamos a tu dispocicion</h3>
                     <p class="light-300">
-                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iste nemo assumenda provident quibusdam,
-                        fugiat delectus laborum architecto quis est molestiae praesentium similique magnam, quo facilis eos, 
-                        voluptatum rem? Adipisci?
+                        Estamos aquí para ayudarte. Si tienes alguna pregunta, comentario o inquietud, no dudes en ponerte en contacto con nosotros. 
+                        Nuestro equipo está disponible para asistirte en todo lo que necesites.
                     </p>
                 </div>
                 <div class="contact-img col-lg-5 align-items-end col-md-4">
@@ -92,10 +137,8 @@
         <h1 class="col-12 col-xl-8 h2 text-left pt-3">No dudes en contactarnos!</h1>
         <h2 class="col-12 col-xl-8 h4 text-left regular-400">Estamos a tu dispocicion </h2>
         <p class="col-12 col-xl-8 text-left text-muted pb-5 light-300">
-            Incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
-            gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Laboris
-            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-            in voluptate.
+            ¿Necesitas asistencia técnica? ¿Tienes alguna consulta sobre nuestros servicios? Estamos aquí para ayudarte. 
+            Rellena el siguiente formulario y nos pondremos en contacto contigo a la mayor brevedad posible.
         </p>
 
         <div class="row pb-4">
@@ -108,9 +151,9 @@
                         </div>
                     </div>
                     <ul class="contact-info list-unstyled col-lg-9 col-9  light-300">
-                        <li class="h5 mb-0">Media Contact</li>
-                        <li class="text-muted">Mr. John Doe</li>
-                        <li class="text-muted">010-020-0340</li>
+                        <li class="h5 mb-0">Contacto</li>
+                        <li class="text-muted">Jaime Rochin</li>
+                        <li class="text-muted">664 386-92-47 </li>
                     </ul>
                 </div>
 
@@ -121,9 +164,9 @@
                         </div>
                     </div>
                     <ul class="contact-info list-unstyled col-lg-9 col-9 light-300">
-                        <li class="h5 mb-0">Technical Contact</li>
-                        <li class="text-muted">Mr. John Stiles</li>
-                        <li class="text-muted">010-020-0340</li>
+                        <li class="h5 mb-0">Gerencia</li>
+                        <li class="text-muted">Jaime Rochin</li>
+                        <li class="text-muted">gerencia@rentastj.com.mx </li>
                     </ul>
                 </div>
 
@@ -134,9 +177,9 @@
                         </div>
                     </div>
                     <ul class="contact-info list-unstyled col-lg-9 col-9 light-300">
-                        <li class="h5 mb-0">Billing Contact</li>
-                        <li class="text-muted">Mr. Richard Miles</li>
-                        <li class="text-muted">010-020-0340</li>
+                        <li class="h5 mb-0">Administracion</li>
+                        <li class="text-muted">Jaime Rochin</li>
+                        <li class="text-muted">administracion@rentastj.com.mx </li>
                     </ul>
                 </div>
 
@@ -190,7 +233,7 @@
                     </div><!-- End Textarea Message -->
 
                     <div class="col-md-12 col-12 m-auto text-end">
-                        <button type="submit" class="btn btn-secondary rounded-pill px-md-5 px-4 py-2 radius-0 text-light light-300">Enviar</button>
+                        <button type="submit" class="btn btn-secondary rounded-pill px-md-5 px-4 py-2 radius-0 text-light light-300" style="box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.3);">Enviar</button>
                     </div>
 
                 </form>
@@ -214,8 +257,7 @@
                         <span class="text-light h5">Rentas</span> <span class="text-light h5 semi-bold-600">TJ</span>
                     </a>
                     <p class="text-light my-lg-4 my-2">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                        sed do eiusmod tempor incididunt ut.
+                        En el ámbito de la construcción y el mantenimiento, la eficiencia y la seguridad son esenciales para el éxito de cualquier proyecto.
                     </p>
                     <ul class="list-inline footer-icons light-300">
                         <li class="list-inline-item m-0">
@@ -274,7 +316,7 @@
                             <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Gruas</a>
                         </li>
                         <li class="pb-2">
-                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">>Elevadores</a>
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Elevadores</a>
                         </li>
                         <li class="pb-2">
                             <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Montacargas</a>
@@ -295,10 +337,10 @@
                     <h2 class="h4 pb-lg-3 text-light light-300">Contacto</h2>
                     <ul class="list-unstyled text-light light-300">
                         <li class="pb-2">
-                            <i class='bx-fw bx bx-phone bx-xs'></i><a class="text-decoration-none text-light py-1" href="tel:010-020-0340">010-020-0340</a>
+                            <i class='bx-fw bx bx-phone bx-xs'></i><a class="text-decoration-none text-light py-1" href="tel:010-020-0340">664 386-92-47</a>
                         </li>
                         <li class="pb-2">
-                            <i class='bx-fw bx bx-mail-send bx-xs'></i><a class="text-decoration-none text-light py-1" href="mailto:info@company.com">info@company.com</a>
+                            <i class='bx-fw bx bx-mail-send bx-xs'></i><a class="text-decoration-none text-light py-1" href="mailto:info@company.com">administracion@rentastj.com.mx</a>
                         </li>
                     </ul>
                 </div>

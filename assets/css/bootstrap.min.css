@@ -3318,8 +3318,8 @@ fieldset:disabled .btn {
   border-color: #212529;
 }
 .btn-outline-primary {
-  color: #007ec2;
-  border-color: #007ec2;
+  color: #ffffff;
+  border-color: #007ec20a;
 }
 .btn-check:active + .btn-outline-primary,
 .btn-check:checked + .btn-outline-primary,
@@ -4091,8 +4091,8 @@ fieldset:disabled .btn {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 0 rem;
+  padding-bottom: 0 rem;
 }
 .navbar > .container,
 .navbar > .container-fluid,
